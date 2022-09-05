@@ -1,0 +1,13 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    height: 40px;
+    background-color: black;
+}
+
+.nav1 {
+    text-decoration: none;
+    color: white;
+}
