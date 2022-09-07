@@ -1,84 +1,14 @@
 body {
-    margin: 0%;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  flex-wrap: wrap;
+  background-image: url("images/blackandwhite.jpg");
 }
 
-.header {
-    height: 60px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 4px solid red;
-  
-    
-    
-}
-
-.david {
-    height: 60px;
-    width: auto;
-    margin-right: 200px;
-    
-}
-
-.nav {
-    display: flex;
-    gap: 25px;
-} 
-
-.nav1 {
-    
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    
-}
-
-.sec {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    
-    width:auto;
-    background-color: #FFFAF0;
-}
-
-.sec1 {
-    display: flex;
-    flex-direction: row;
-    gap: 36px;
-
-}
-
-.sec2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    
-    width:auto;
-    background-color: white;
-    
-}
-
-.me {
-    height: 300px;
-    width: 300px;
-    border: 2px solid black;
-    border-radius: 150px;
-
-}
-
-.p1 {
-    display: flex;
-    width: 400px;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    text-align: justify;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+.nav .h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 34px;
+  font-family: cursive;
 }
